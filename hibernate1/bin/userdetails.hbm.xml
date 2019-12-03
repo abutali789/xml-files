@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<hibernate-mapping>
+
+<class name="com.hibernate1.controller.Student" table="UserInfo">
+<id name="uid"></id>
+<property name="name"></property>
+<property name="city"></property>
+<property name="state"></property>
+</class>
+
+
+</hibernate-mapping>
